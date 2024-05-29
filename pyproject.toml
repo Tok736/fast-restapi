@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-restapi"
+version = "0.1.0"
+description = ""
+authors = ["Eugene <to_ev@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+SQLAlchemy = "^2.0.30"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
