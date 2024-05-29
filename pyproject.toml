@@ -12,6 +12,7 @@ SQLAlchemy = "^2.0.30"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.1"
+aiosqlite = "^0.20.0"
 
 [build-system]
 requires = ["poetry-core"]

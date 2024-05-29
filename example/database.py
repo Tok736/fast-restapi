@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 Base: DeclarativeMeta = declarative_base()
 
-engine = create_async_engine("sqlite:///db.sqlite3")
+engine = create_async_engine("sqlite+aiosqlite:///db.sqlite3")
 
 async_session_maker = sessionmaker(
     engine, 
