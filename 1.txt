@@ -1,0 +1,2 @@
+!!!! (id: int, session: sqlalchemy.ext.asyncio.session.AsyncSession = Depends(get_async_session)) -> schemas.UserReadSchema
+!!!! (id: int, session: sqlalchemy.ext.asyncio.session.AsyncSession = Depends(get_async_session)) -> schemas.UserCreateSchema
